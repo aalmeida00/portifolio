@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Clarice Lispector',
     description: 'Clarice Lispector',
-    image: '/images/1.png',
+    image: '/images/placeholder.png',
     tags: ['PHP', 'Wordpress', 'Javascript', 'Elementor'],
     source: 'https://claricelispector.ims.com.br/',
     visit: 'https://claricelispector.ims.com.br/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Primeiro Pay',
     description: '',
-    image: '/images/2.png',
+    image: '/images/placeholder.png',
     tags: ['PHP', 'Wordpress', 'Javascript'],
     source: 'https://primeiropay.com/',
     visit: 'https://primeiropay.com/',
