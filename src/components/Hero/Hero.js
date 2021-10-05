@@ -12,9 +12,9 @@ const Hero = (props) => (
         meu portifólio
       </SectionTitle>
       <SectionText>
-        Desenvolvedor, cansado e curioso.
+        Especialista em front end e Javascript.
       </SectionText>
-    <Button onClick={() => window.location = 'mailto:andre@aalmeida.tech'}>Saiba mais</Button>
+    <Button onClick={() => window.location = 'mailto:andre@aalmeida.tech'}>Entre em contato</Button>
     </LeftSection>
 
   </Section>

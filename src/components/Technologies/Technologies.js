@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiencia com <br />
-            React.js, Vue, SASS
+            Javascript, React.js, Programação funcional. 
           </ListParagraph>
         </ListContainer>
       </ListItem>
