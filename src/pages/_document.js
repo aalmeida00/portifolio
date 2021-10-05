@@ -33,6 +33,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>Andre Almeida - Frontend Specialist</title>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <meta property="og:title" content="Andre Almeida - Frontend Specialist" key="title" />
         </Head>
         <body>
           <Main />
