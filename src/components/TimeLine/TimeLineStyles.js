@@ -87,17 +87,6 @@ export const CarouselItemTitle = styled.h4`
     line-height: 24px;
   }
 `
-export const CarouselItemImg = styled.svg`
-  margin-left: 21px;
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
-  width: 100%;
-
-  @media ${props => props.theme.breakpoints.sm} {
-    -webkit-mask-image: none;
-    margin-left: 16px;
-    overflow: visible;
-  }
-`
 
 export const CarouselItemText = styled.p`
   font-size: 14px;

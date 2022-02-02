@@ -8,13 +8,13 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 30, text: 'Projetos feitos' },
-  { number: 100, text: 'Clientes satisfeitos' },
+  { number: 30, text: 'Projects done' },
+  { number: 100, text: 'Satisfied clients' },
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Conquistas pessoais</SectionTitle>
+    <SectionTitle>Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card, i) => (
         <Box key={i}>

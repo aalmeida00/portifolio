@@ -18,39 +18,38 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle>Tecnologias</SectionTitle>
+    <SectionTitle>Stack</SectionTitle>
     <SectionText>
-      Trabalhei com diversas tecnologias no mundo do desenvolvimento web.
-      Conheça algumas
+      Work with the following technologies:
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Frontend</ListTitle>
           <ListParagraph>
-            Experiencia com <br />
-            Javascript, React.js, Programação funcional. 
+            Experience with <br />
+            Javascript, React, Marionett, Ruby on Rails. 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiWordpress size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Experiencia com <br />
-            PHP, Node e MySQL
+            Experience with <br />
+            Ruby, PHP, Node e MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiTrello size="3rem" />
         <ListContainer>
-          <ListTitle>Gestão</ListTitle>
+          <ListTitle>Management</ListTitle>
           <ListParagraph>
-            Experiencia com <br />
-            Gestão de times agéis
+            Experience with <br />
+            Scrum, Kanban, Agile
           </ListParagraph>
         </ListContainer>
       </ListItem>

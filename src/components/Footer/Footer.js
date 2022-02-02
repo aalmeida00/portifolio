@@ -24,14 +24,14 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
-          <LinkItem href="mailto:andre@aalmeida.tech">
-            andre@aalmeida.tech
+          <LinkItem href="mailto:andre-silva78@hotmail.com">
+            andre-silva78@hotmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Vamos conversar?</Slogan>
+          <Slogan>Lets talk?</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/aalmeida00">
