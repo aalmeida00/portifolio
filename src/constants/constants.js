@@ -3,7 +3,7 @@ export const projects = [
     title: 'Runrun.it',
     description: 'Frontend for Runrun.it',
     image: '/images/placeholder.png',
-    tags: ['Javascript', 'React', 'Marionett', 'Ruby'],
+    tags: ['Javascript', 'React', 'Marionnett'],
     source: 'https://runrun.it/',
     visit: 'https://runrun.it/',
     id: 0,
