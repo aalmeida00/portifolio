@@ -29,7 +29,7 @@ const Technologies = () => (
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Javascript, React, Marionett, Ruby on Rails. 
+            Javascript, React, Marionnett.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +39,7 @@ const Technologies = () => (
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Ruby, PHP, Node e MySQL
+            PHP, Node e MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
