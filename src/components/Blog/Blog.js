@@ -2,15 +2,15 @@ import React from 'react';
 
 import {
   GridContainer,
-} from './ProjectsStyles';
+} from './BlogStyles';
 import {
   Section,
   SectionDivider,
   SectionTitle,
 } from '../../styles/GlobalComponents';
 
-const Projects = () => (
-  <Section nopadding id="projects">
+const Blog = () => (
+  <Section nopadding id="blog">
     <SectionDivider />
     <SectionTitle main>Blog</SectionTitle>
     <GridContainer>
@@ -19,4 +19,4 @@ const Projects = () => (
   </Section>
 );
 
-export default Projects;
+export default Blog;
