@@ -1,33 +1,3 @@
-export const projects = [
-  {
-    title: 'Runrun.it',
-    description: 'Frontend for Runrun.it',
-    image: '/images/placeholder.png',
-    tags: ['Javascript', 'React', 'Marionnett'],
-    source: 'https://runrun.it/',
-    visit: 'https://runrun.it/',
-    id: 0,
-  },
-  {
-    title: 'Clarice Lispector',
-    description: 'Principal responsible to the frontend of Clarice Lispector 100th year edition',
-    image: '/images/placeholder.png',
-    tags: ['PHP', 'Wordpress', 'Javascript', 'Elementor'],
-    source: 'https://claricelispector.ims.com.br/',
-    visit: 'https://claricelispector.ims.com.br/',
-    id: 1,
-  },
-  {
-    title: 'Primeiro Pay',
-    description: '',
-    image: '/images/placeholder.png',
-    tags: ['PHP', 'Wordpress', 'Javascript'],
-    source: 'https://primeiropay.com/',
-    visit: 'https://primeiropay.com/',
-    id: 2,
-  },
-];
-
 export const TimeLineData = [
   { year: 2011, text: 'Started an it course' },
   { year: 2014, text: 'Started a bsC in system information' },
