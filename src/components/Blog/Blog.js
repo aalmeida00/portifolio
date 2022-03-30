@@ -9,12 +9,21 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 
-const Blog = () => (
+const Blog = ({posts}) => (
   <Section nopadding id="blog">
     <SectionDivider />
     <SectionTitle main>Blog</SectionTitle>
     <GridContainer>
-     Soon this is gonna be a blog
+      {posts.map((post, idx) => {
+        return (
+          <div key={idx}>
+            <h1>{post.data.title}</h1>
+            <p>{post.data.excerpt}</p>
+          </div>
+        )
+      }
+        )
+      }
     </GridContainer>
   </Section>
 );
