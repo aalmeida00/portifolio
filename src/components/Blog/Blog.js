@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import {
-  GridContainer,
-} from './BlogStyles';
+import { GridContainer } from "./BlogStyles";
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from '../../styles/GlobalComponents';
+} from "../../styles/GlobalComponents";
 
-const Blog = ({posts}) => (
+const Blog = ({ posts }) => (
   <Section nopadding id="blog">
     <SectionDivider />
     <SectionTitle main>Blog</SectionTitle>
@@ -20,10 +18,8 @@ const Blog = ({posts}) => (
             <h1>{post.data.title}</h1>
             <p>{post.data.excerpt}</p>
           </div>
-        )
-      }
-        )
-      }
+        );
+      })}
     </GridContainer>
   </Section>
 );

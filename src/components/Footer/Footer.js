@@ -1,7 +1,7 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from '../Header/HeaderStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
   FooterWrapper,
@@ -12,7 +12,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from './FooterStyles';
+} from "./FooterStyles";
 
 const Footer = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
 import {
   CarouselButton,
@@ -9,14 +9,14 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from './TimeLineStyles';
+} from "./TimeLineStyles";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+} from "../../styles/GlobalComponents";
+import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -25,7 +25,7 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
+    return node.scrollTo({ left, behavior: "smooth" });
   };
 
   const handleClick = (e, i) => {
@@ -59,14 +59,15 @@ const Timeline = () => {
       scroll(carouselRef.current, 0);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About</SectionTitle>
       <SectionText>
-        Software Engineer, lover of technology, and a big fan of learning and teaching people.
+        Software Engineer, lover of technology, and a big fan of learning and
+        teaching people.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -81,9 +82,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, i)}
               >
-                <CarouselItemTitle>
-                  {`${item.year}`}
-                </CarouselItemTitle>
+                <CarouselItemTitle>{`${item.year}`}</CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>

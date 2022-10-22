@@ -1,27 +1,25 @@
-import React from 'react';
-import { DiWordpress, DiReact, DiTrello } from 'react-icons/di';
+import React from "react";
+import { DiWordpress, DiReact, DiTrello } from "react-icons/di";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from '../../styles/GlobalComponents';
+} from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from './TechnologiesStyles';
+} from "./TechnologiesStyles";
 
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Stack</SectionTitle>
-    <SectionText>
-      Work with the following technologies:
-    </SectionText>
+    <SectionText>Work with the following technologies:</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />

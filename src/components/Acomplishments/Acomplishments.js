@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 30, text: 'Projects done' },
-  { number: 100, text: 'Satisfied clients' },
+  { number: 30, text: "Projects done" },
+  { number: 100, text: "Satisfied clients" },
 ];
 
 const Acomplishments = () => (

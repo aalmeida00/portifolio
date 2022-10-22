@@ -1,18 +1,17 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
-import Hero from '../components/Hero/Hero';
-import Blog from '../components/Blog/Blog';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
-import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import Acomplishments from "../components/Acomplishments/Acomplishments";
+import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
+import Hero from "../components/Hero/Hero";
+import Blog from "../components/Blog/Blog";
+import Technologies from "../components/Technologies/Technologies";
+import Timeline from "../components/TimeLine/TimeLine";
+import { Layout } from "../layout/Layout";
+import { Section } from "../styles/GlobalComponents";
 
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter';
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 
-
-const Home = ({posts}) => {
+const Home = ({ posts }) => {
   return (
     <Layout>
       <Section grid>
@@ -29,23 +28,23 @@ const Home = ({posts}) => {
 
 export default Home;
 
-
 export async function getStaticProps() {
-  const files = fs.readdirSync(path.join('src/posts'))
+  const files = fs.readdirSync(path.join("src/posts"));
 
-  const posts = files.map(file => {
-    const slug = file.replace('.md', '')   
-    const markdownWithMeta = fs.readFileSync(path.join('src/posts', file), 'utf8')
+  const posts = files.map((file) => {
+    const slug = file.replace(".md", "");
+    const markdownWithMeta = fs.readFileSync(
+      path.join("src/posts", file),
+      "utf8"
+    );
 
-     const {data} = matter(markdownWithMeta)
+    const { data } = matter(markdownWithMeta);
 
     return {
       slug,
-      data
-     }
- 
-  })
-
+      data,
+    };
+  });
 
   return {
     props: {
