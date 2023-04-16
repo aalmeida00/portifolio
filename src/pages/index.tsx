@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Title from "@/components/Title";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      secondary
+      <Title tag="h2">
+        Andre<br /> 
+        Almeida
+      </Title>
     </main>
   )
 }
