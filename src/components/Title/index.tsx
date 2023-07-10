@@ -9,8 +9,6 @@ const titles = {
   h6: true,
 };
 
-
-
 interface ITitle {
   children: React.ReactNode;
   tag: string;
@@ -26,4 +24,5 @@ const Title = ({ children, tag, props }: ITitle) => {
     </ValidTag>
   )
 }
+
 export default memo(Title)
