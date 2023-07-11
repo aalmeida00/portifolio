@@ -14,8 +14,7 @@ export default function Home() {
           <Span>A brief introduction about me</Span>
 
           <p>
-            My name is Andre Almeida, i`m a Senior Software Engineer working currently at
-            <a href="https://foxbit.com.br/" target="_blank">Foxbit</a>. Mostly working as a
+            My name is Andre Almeida, i`m a Senior Software Engineer working currently at <a href="https://foxbit.com.br/" target="_blank">Foxbit</a>. Mostly working as a
             Champion Frontend Engineer, working on our core product and some side products like our International Exchange called <a href="https://pro.foxbit.com/" target="_blank">PRO</a>.
           </p>
         </section>
