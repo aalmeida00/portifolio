@@ -1,6 +1,7 @@
 import Avatar from "@/components/Avatar";
 import Title from "@/components/Title";
 import Span from "@/components/Span";
+import Anchor from "@/components/Anchor";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
           <Span>A brief introduction about me</Span>
 
           <p>
-            My name is Andre Almeida, i`m a Senior Software Engineer working currently at <a href="https://foxbit.com.br/" target="_blank">Foxbit</a>. Mostly working as a
-            Champion Frontend Engineer, working on our core product and some side products like our International Exchange called <a href="https://pro.foxbit.com/" target="_blank">PRO</a>.
+            My name is Andre Almeida, i`m a Senior Software Engineer working currently at <Anchor href="https://foxbit.com.br/" target="_blank">Foxbit</Anchor>. Mostly working as a
+            Champion Frontend Engineer, working on our core product and some side products like our International Exchange called <Anchor href="https://pro.foxbit.com/" target="_blank">PRO</Anchor>.
           </p>
         </section>
 
